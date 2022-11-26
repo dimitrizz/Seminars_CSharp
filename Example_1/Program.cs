@@ -6,6 +6,8 @@ int namberB = int.Parse(Console.ReadLine());
 
 if (namberA > namberB) {
     Console.WriteLine("Число " + namberA + " больше, а число " + namberB + " меньше.");
-} else {
+} if (namberB > namberA) {
    Console.WriteLine("Число " + namberB + " больше, а число " + namberA + " меньше."); 
+} else {
+    Console.WriteLine("Числа равны.");
 }
